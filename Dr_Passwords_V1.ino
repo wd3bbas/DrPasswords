@@ -853,12 +853,6 @@ void sendSelectedItem() {
       Keyboard.print(passwordUsernameValues[activePasswordIndex]);
       Keyboard.write(KEY_TAB);
       Keyboard.print(passwordTextValues[activePasswordIndex]);
-    } else if (selectedIndex == 1) {
-      Keyboard.print(passwordUsernameValues[activePasswordIndex]);
-    } else if (selectedIndex == 2) {
-      Keyboard.print(passwordUsernameValues[activePasswordIndex]);
-      Keyboard.write(KEY_TAB);
-      Keyboard.print(passwordTextValues[activePasswordIndex]);
     }
 
     delay(400);
