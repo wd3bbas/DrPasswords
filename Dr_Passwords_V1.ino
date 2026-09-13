@@ -1,8 +1,4 @@
-//Gmail TOTP
-const char* WIFI_SSID = "***************";
-const char* WIFI_PASSWORD = "**********";
-const char* GMAIL_TOTP_BASE32 = "aaaa bbbb cccc dddd eeee ffff gggg hhhh";
-
+#include "secrets.h"
 #include <TFT_eSPI.h>
 #include <WiFi.h>
 #include <WebServer.h>
